@@ -1,0 +1,78 @@
+{
+  "calidad": {
+    "filas": 200,
+    "faltantes": 0,
+    "duplicados": 0,
+    "fechas_invalidas": 0,
+    "negativos": 0,
+    "merma_supera_volumen": 0,
+    "tiempo_produccion_no_positivo": 0,
+    "volumen_no_positivo": 0,
+    "atipicos_iqr": {
+      "volumen_producido_m3": 0,
+      "merma_m3": 0,
+      "consumo_energia_kwh": 0,
+      "tiempo_produccion_hr": 0,
+      "ventas_unidades": 0,
+      "tiempo_despacho_dias": 0
+    }
+  },
+  "correlacion": {
+    "rho": -0.027079701910153936,
+    "p_valor": 0.7034747040744824
+  },
+  "inicio": "2025-01-01",
+  "fin": "2025-07-19",
+  "volumen_total": 53020.0,
+  "merma_total": 4620.0,
+  "merma_pct_ponderada": 8.71369294605809,
+  "despacho_promedio": 6.145,
+  "energia_total": 630028.0,
+  "ventas_total": 47329,
+  "planta": [
+    {
+      "planta": "Planta Centro",
+      "registros": 61,
+      "volumen_m3": 16988,
+      "merma_m3": 1603,
+      "merma_pct_ponderada": 9.43607252178008,
+      "energia_kwh_m3_ponderada": 11.814045208382387,
+      "despacho_promedio_dias": 6.278688524590164
+    },
+    {
+      "planta": "Planta Norte",
+      "registros": 66,
+      "volumen_m3": 17220,
+      "merma_m3": 1502,
+      "merma_pct_ponderada": 8.722415795586528,
+      "energia_kwh_m3_ponderada": 11.295296167247386,
+      "despacho_promedio_dias": 6.590909090909091
+    },
+    {
+      "planta": "Planta Sur",
+      "registros": 73,
+      "volumen_m3": 18812,
+      "merma_m3": 1515,
+      "merma_pct_ponderada": 8.05337018924091,
+      "energia_kwh_m3_ponderada": 12.482776950882416,
+      "despacho_promedio_dias": 5.63013698630137
+    }
+  ],
+  "por_canal": [
+    {
+      "canal_distribucion": "Constructoras",
+      "ventas": 13897,
+      "despacho_dias": 6.213114754098361
+    },
+    {
+      "canal_distribucion": "Mueblerías",
+      "ventas": 16426,
+      "despacho_dias": 6.6
+    },
+    {
+      "canal_distribucion": "Placacentro",
+      "ventas": 17006,
+      "despacho_dias": 5.6231884057971016
+    }
+  ]
+}
